@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" 
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/aliyun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="阿里云视频" />
+
+    <Button
+        android:id="@+id/guoshui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="国税局视频-域名" />
+    
+    <Button
+        android:id="@+id/guoshui2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="国税局视频-IP" />
+    
+    <Button
+        android:id="@+id/hls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="苹果HLS视频" />
+    
+    <Button
+        android:id="@+id/rtsp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="监控RTSP视频" />
+
+</LinearLayout>
